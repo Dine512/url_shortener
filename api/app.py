@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from config import settings
 from database import Base, engine
-from router import router as url_router
+from api.routers.router import router as url_router
 
 
 def create_app() -> FastAPI:

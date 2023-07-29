@@ -1,7 +1,7 @@
-from sqlalchemy import select, insert, delete, Result, CursorResult
+from sqlalchemy import select, insert, delete, CursorResult
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from models import Url as UrlModel
+from api.routers.models import Url as UrlModel
 
 
 class UrlDAO:

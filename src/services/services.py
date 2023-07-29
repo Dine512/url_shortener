@@ -2,8 +2,8 @@ import string
 import random
 
 from config import settings
-from dao import UrlDAO
-from models import Url
+from src.dao.dao import UrlDAO
+from api.routers.models import Url
 
 
 class UrlService:
